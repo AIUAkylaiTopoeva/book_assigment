@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the post container */
+  .post {
+    width: 80%;
+    margin: 20px;
+    background-color: rgb(167, 231, 190);
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style heading level 2 (h2) within the post */
+  .post h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraphs (p) within the post */
+  .post p {
+    line-height: 1.5;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    color: #ac4cd2;
+    font-size: 40px;
+    margin: 20px;
+  }
