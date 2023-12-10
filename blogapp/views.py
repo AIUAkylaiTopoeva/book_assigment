@@ -19,10 +19,10 @@ class PostCreateView(generic.CreateView):
 
 class PostUpdateView(generic.UpdateView):  
     model = Post
-    template_name = "post_edit.html" 
+    template_name = "blogapp/post_edit.html" 
     fields = ["title", "body"]
 
 class PostDeleteView(generic.DeleteView): 
     model = Post
-    template_name = "post_delete.html" 
+    template_name = "blogapp/post_delete.html" 
     success_url = reverse_lazy("home")
