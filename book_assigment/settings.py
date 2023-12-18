@@ -57,7 +57,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'book_assigment.urls'
 
-AUTH_USER_MODEL = "accounts.CustomUser"
 
 TEMPLATES = [
     {
