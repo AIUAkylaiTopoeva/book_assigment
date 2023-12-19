@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     #Apps
     'blogapp',
     'accounts',
+    'blogapi',
 ]
 
 MIDDLEWARE = [
